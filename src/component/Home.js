@@ -7,6 +7,9 @@ const Home = () => {
       <div>
         新規登録は<Link to={`/register/`}>こちら</Link>
       </div>
+      <div>
+        ログインは<Link to={`/login/`}>こちら</Link>
+      </div>
     </>
   );
 };
