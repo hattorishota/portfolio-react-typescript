@@ -1,9 +1,9 @@
-import { Routes, Route, Link } from 'react-router-dom';
-import Home from './Home';
-import Login from './Login';
-import Register from './Register';
+import { Routes, Route } from 'react-router-dom';
+import Home from '../component/Home';
+import Login from '../component/Login';
+import Register from '../component/Register';
 
-const Header = () => {
+const route = () => {
   return (
     <>
       <Routes>
@@ -15,4 +15,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default route;
