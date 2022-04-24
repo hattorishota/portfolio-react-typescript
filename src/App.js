@@ -1,4 +1,4 @@
-import './scss/frontpage.scss';
+import 'assets/scss/top.scss';
 
 function App() {
   return (
