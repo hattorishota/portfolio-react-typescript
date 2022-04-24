@@ -1,6 +1,4 @@
-import Route from "./router/header_routes";
 import './scss/frontpage.scss';
-
 
 function App() {
   return (
